@@ -28,9 +28,10 @@ cd BHaratFD_Backend-Project
 ## 📦 Install Backend Dependencies
 
 Move into the backend directory and install necessary packages:
-
+''' Bash
 cd backend
 npm install
+'''
 
 ## 🔧 Configure Environment Variables
 
