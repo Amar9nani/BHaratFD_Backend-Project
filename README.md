@@ -20,94 +20,51 @@ Security: HTTPS enabled via Let’s Encrypt 🔒
 
 ## 🚀 Getting Started
 
-📥 Clone the Repository
+## 👅 Clone the Repository
 
+GitHub Repository:
+
+Multilingual FAQ System
+```bash
 git clone https://github.com/Amar9nani/BHaratFD_Backend-Project.git
 cd BHaratFD_Backend-Project
+```
 
-## 📦 Install Backend Dependencies
+## 👖 Backend Deployment
 
-Move into the backend directory and install necessary packages:
-''' Bash
-cd backend
-npm install
-'''
+Backend API Base URL:
 
-## 🔧 Configure Environment Variables
+Backend API
 
-Ensure you set up the required environment variables for seamless operation:
+## 🔧 Admin Panel
 
-export MONGODB_URI="your-mongodb-uri"
-export REDIS_URL="redis://your-elasticache-endpoint:6379"
-export GOOGLE_CLOUD_PROJECT_ID="your-google-cloud-project-id"
-export GOOGLE_CLOUD_CREDENTIALS_PATH="path-to-your-google-cloud-credentials.json"
+Admin Panel:
 
-(Tip: To persist these variables, add them to .bashrc or .bash_profile)
+Admin Dashboard
 
-## 🚦 Start the Backend Server (PM2 Recommended)
-
-To run the backend efficiently in the background, use PM2:
-
-pm install -g pm2
-pm2 start src/app.js --name "faq-backend"
-pm2 startup
-pm2 save
-
-## 🎨 Frontend Deployment (AWS Amplify)
+## 🏠 Frontend Deployment (AWS Amplify)
 
 The frontend is powered by AWS Amplify and is accessible at:
 
-## 🌐 Live Frontend URL
+## 🌐 Live Frontend URL: https://staging.d2ekmhrt6u8pl0.amplifyapp.com/
 
-## 🏠 Key Pages
+Frontend Hosted on AWS Amplify
 
-Home Page: Displays FAQs in the default language, with an option to switch languages.
+## 🛠️ API Endpoints
 
-URL: /
+🔗 Base API URL:
 
-Admin Panel: Manage FAQs efficiently (Admin access required).
+https://myfaq.duckdns.org
 
-URL: /admin
+Fetch FAQs (English default):[GET] https://myfaq.duckdns.org/api/faqs/
 
-## 🔍 Testing the Application
+Fetch FAQs in Hindi:[GET] https://myfaq.duckdns.org/api/faqs/?lang=hi
 
-# ✅ Frontend Testing
+Create a New FAQ:[POST] https://myfaq.duckdns.org/api/faqs
 
-To explore the multilingual FAQ system, visit:
+Update an Existing FAQ (Replace :id with the actual FAQ ID):[PUT] https://myfaq.duckdns.org/admin/faqs/:id
 
-🔗 Frontend URL
-
-🔧 Backend API Testing
-
-The backend is securely hosted on AWS EC2 with HTTPS enabled via DuckDNS:
-
-🔗 Base API URL: https://myfaq.duckdns.org
-
-## 📌 API Endpoints:
-
-Fetch FAQs (English default):
-
-curl https://myfaq.duckdns.org/api/faqs/
-
-Fetch FAQs in Hindi:
-
-curl https://myfaq.duckdns.org/api/faqs/?lang=hi
-
-Create a New FAQ:
-
-curl -X POST https://myfaq.duckdns.org/api/faqs \  
-     -H "Content-Type: application/json" \  
-     -d '{"question": "Sample Question", "answer": "Sample Answer"}'
-
-Update an Existing FAQ (Replace :id with actual ID):
-
-curl -X PUT https://myfaq.duckdns.org/admin/faqs/:id \  
-     -H "Content-Type: application/json" \  
-     -d '{"question": "Updated Question", "answer": "Updated Answer"}'
-
-Delete an FAQ (Replace :id with actual ID):
-
-curl -X DELETE https://myfaq.duckdns.org/admin/faqs/:id
+Delete an FAQ (Replace :id with the actual FAQ ID):[DELETE] https://myfaq.duckdns.org/admin/faqs/:id
 
 ☁️ AWS Infrastructure & Services
 
@@ -125,7 +82,7 @@ Boosts performance by caching frequently accessed FAQ data.
 
 Hosts static frontend files (HTML, CSS, JavaScript)
 
-S3 URL: [https://your-bucket-name.s3-website-region.amazonaws.com](https://faq-app-frontend.s3-website.ap-south-1.amazonaws.com/)
+S3 URL:https://faq-app-frontend.s3-website.ap-south-1.amazonaws.com/
 
 🔐 AWS Route 53 & ACM (Custom Domain + SSL)
 
@@ -137,7 +94,7 @@ Ensures secure HTTPS access via AWS Certificate Manager
 
 The Multilingual FAQ System is a scalable and cloud-native solution for managing FAQs across multiple languages. With AWS EC2 (backend), AWS Amplify (frontend), and Redis caching, the system ensures high performance, security, and availability. 🚀
 
-## 🎯 Features:
+🎯 Features:
 
 🏆 Multilingual Support: Dynamic FAQ translations.
 
@@ -150,4 +107,3 @@ The Multilingual FAQ System is a scalable and cloud-native solution for managing
 🖥️ Admin Panel: Easy management of FAQs.
 
 Enjoy exploring and contributing! 🚀🔥
-
