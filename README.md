@@ -1,6 +1,6 @@
 ## 🌍 Multilingual FAQ System
 
-Welcome to the Multilingual FAQ System – an intelligent and scalable solution for delivering frequently asked questions (FAQs) in multiple languages. This project is built for seamless multilingual support, leveraging a powerful cloud infrastructure for performance and reliability. 🚀
+Welcome to the Multilingual FAQ System – an intelligent and scalable solution for delivering frequently asked questions (FAQs) in multiple languages. This project is built for seamless multilingual support, leveraging a powerful cloud infrastructure for performance and reliability. 
 
 ## 🛠️ Tech Stack
 
@@ -58,4 +58,11 @@ The Multilingual FAQ System is a scalable and cloud-native solution for managing
 
 🖥️ Admin Panel: Easy management of FAQs.
 
+## My Name: Nanduri Venkata Durga Amarnadh
+## Email:[namarnadh.9@gmail.com](namarnadh.9@gmail.com)
+## Linkedin:[https://www.linkedin.com/in/amarnadh9/](https://www.linkedin.com/in/amarnadh9/)
+## GitHub:[https://github.com/Amar9nani](https://github.com/Amar9nani) 
+
+
 Enjoy exploring and contributing! 🚀🔥
+## ****************************************
