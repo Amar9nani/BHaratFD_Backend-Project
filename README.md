@@ -37,6 +37,24 @@ Backend API:
 cd backend
 npm install
 ```
+## 🖥️ Images
+1.Adding the text into form
+![Add Image](/Screenshots/1.adding_content.png)
+
+2.Submitting the Content into the form
+![Submit Image](/Screenshots/2.submitting_content.png)
+
+3.Content added in English
+![English Image](/Screenshots/3.english.png)
+
+4.Content added in Hindi
+![Hindi Image](/Screenshots/3.rename.png)
+
+5.Content added in Bengali
+![Bengali Image](/Screenshots/3.Bengali.png)
+
+
+
 
 ## 🏠 Frontend Deployment (AWS Amplify)
 
