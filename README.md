@@ -38,17 +38,7 @@ cd backend
 npm install
 ```
 
-## 🔧 Admin Panel
-
-Admin Panel:
-
-Admin Dashboard
-
 ## 🏠 Frontend Deployment (AWS Amplify)
-
-The frontend is powered by AWS Amplify and is accessible at:
-
-## 🌐 Live Frontend URL: https://staging.d2ekmhrt6u8pl0.amplifyapp.com/
 
 Frontend Hosted on AWS Amplify
 
