@@ -6,7 +6,7 @@ Welcome to the Multilingual FAQ System – an intelligent and scalable solution 
 
 Frontend: HTML, CSS, JavaScript (Hosted on AWS Amplify)
 
-Backend: Node.js, Express.js, Redis (AWS ElastiCache), MongoDB (Optional)
+Backend: Node.js, Express.js, Redis (AWS ElastiCache), MongoDB 
 
 Cloud Hosting:
 
@@ -56,7 +56,7 @@ Frontend Hosted on AWS Amplify
 The backend is hosted on AWS EC2 and secured with HTTPS using a custom domain ```https://myfaq.duckdns.org.``` To test the API, you can use the custom domain:
 
 API Endpoint (Example): ```https://myfaq.duckdns.org/api/faqs```
-Admin API Endpoint: https://myfaq.duckdns.org/admin/faqs (only accessible by authorized users)
+Admin API Endpoint: ```https://myfaq.duckdns.org/admin/faqs``` (only accessible by authorized users)
 Example API Usage:
 ```bash
 # Fetch FAQs in English (default)
