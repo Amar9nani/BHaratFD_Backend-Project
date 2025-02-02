@@ -37,29 +37,46 @@ Backend API:
 cd backend
 npm install
 ```
-## 🖥️ Images
-1.Adding the text into form
-![Add Image](/Screenshots/1.adding_content.png)
 
-2.Submitting the Content into the form
-![Submit Image](/Screenshots/2.submitting_content.png)
+## 🚀 Set Up Environment Variables
+Make sure you set up the necessary environment variables:
 
-3.Content added in English
-![English Image](/Screenshots/3.english.png)
-
-4.Content added in Hindi
-![Hindi Image](/Screenshots/3.rename.png)
-
-5.Content added in Bengali
-![Bengali Image](/Screenshots/3.Bengali.png)
-
-
-
+```bash
+export MONGODB_URI="your-mongodb-uri"
+export REDIS_URL="redis://your-elasticache-endpoint:6379"
+export GOOGLE_CLOUD_PROJECT_ID="your-google-cloud-project-id"
+export GOOGLE_CLOUD_CREDENTIALS_PATH="path-to-your-google-cloud-credentials.json"
+```
 
 ## 🏠 Frontend Deployment (AWS Amplify)
 
 Frontend Hosted on AWS Amplify
 
+## 📂 Testing the Backend
+The backend is hosted on AWS EC2 and secured with HTTPS using a custom domain ```https://myfaq.duckdns.org.``` To test the API, you can use the custom domain:
+
+API Endpoint (Example): ```https://myfaq.duckdns.org/api/faqs```
+Admin API Endpoint: https://myfaq.duckdns.org/admin/faqs (only accessible by authorized users)
+Example API Usage:
+```bash
+# Fetch FAQs in English (default)
+curl https://myfaq.duckdns.org/api/faqs/
+
+# Fetch FAQs in Hindi
+curl https://myfaq.duckdns.org/api/faqs/?lang=hi
+
+# Fetch FAQs in Bengali
+curl https://myfaq.duckdns.org/api/faqs/?lang=bn
+
+# Create a new FAQ
+curl -X POST https://myfaq.duckdns.org/api/faqs -H "Content-Type: application/json" -d '{"question": "Test Question", "answer": "Test Answer"}'
+
+# Update an existing FAQ (replace :id with the actual FAQ ID)
+curl -X PUT https://myfaq.duckdns.org/admin/faqs/:id -H "Content-Type: application/json" -d '{"question": "Updated Question", "answer": "Updated Answer"}'
+
+# Delete an existing FAQ (replace :id with the actual FAQ ID)
+curl -X DELETE https://myfaq.duckdns.org/admin/faqs/:id
+```
 ## 📌 Summary
 
 The Multilingual FAQ System is a scalable and cloud-native solution for managing FAQs across multiple languages. With AWS EC2 (backend), AWS Amplify (frontend), and Redis caching, the system ensures high performance, security, and availability. 🚀
