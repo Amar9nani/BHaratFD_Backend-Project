@@ -137,7 +137,3 @@ This **Multilingual FAQ System** is designed to allow easy management of FAQ con
 - **Backend** is accessible via **custom domain** `https://myfaq.duckdns.org`.
 - **Admin page** allows easy management of FAQs.
 
-##My Name: Mohamed Mujtaba
-##Email:[mohamedmujtaba07@gmail.com](mohamedmujtaba07@gmail.com)
-##github:[https://github.com/Mujtabaa07](https://github.com/Mujtabaa07)
-##linkedin:[linkedin.com/in/mohamed-mujtaba/](linkedin.com/in/mohamed-mujtaba/)
