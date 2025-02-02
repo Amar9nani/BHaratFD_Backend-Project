@@ -59,9 +59,9 @@ The Multilingual FAQ System is a scalable and cloud-native solution for managing
 🖥️ Admin Panel: Easy management of FAQs.
 
 ## My Name: Nanduri Venkata Durga Amarnadh
-## Email:[namarnadh.9@gmail.com](namarnadh.9@gmail.com)
-## Linkedin:[https://www.linkedin.com/in/amarnadh9/](https://www.linkedin.com/in/amarnadh9/)
-## GitHub:[https://github.com/Amar9nani](https://github.com/Amar9nani) 
+## Email: [namarnadh.9@gmail.com](namarnadh.9@gmail.com)
+## Linkedin: [https://www.linkedin.com/in/amarnadh9/](https://www.linkedin.com/in/amarnadh9/)
+## GitHub: [https://github.com/Amar9nani](https://github.com/Amar9nani) 
 
 
 Enjoy exploring and contributing! 🚀🔥
